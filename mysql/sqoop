@@ -1,0 +1,176 @@
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_member \
+--username root \
+--password zhangyang517 \
+--table t_member \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_member \
+--hive-table t_member
+
+
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_member \
+--username root \
+--password zhangyang517 \
+--table t_member_addr \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_member \
+--hive-table t_member_addr
+
+
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_commodity \
+--username root \
+--password zhangyang517 \
+--table t_commodity \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_commodity \
+--hive-table t_commodity
+
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_commodity \
+--username root \
+--password zhangyang517 \
+--table t_commodity_cate \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_commodity \
+--hive-table t_commodity_cate
+
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_operation \
+--username root \
+--password zhangyang517 \
+--table t_delivery \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_operation \
+--hive-table t_delivery
+
+
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_operation \
+--username root \
+--password zhangyang517 \
+--table t_feedback \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_operation \
+--hive-table t_feedback
+
+
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_operation \
+--username root \
+--password zhangyang517 \
+--table t_shop \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_operation \
+--hive-table t_shop
+
+
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_operation \
+--username root \
+--password zhangyang517 \
+--table t_shop_order \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_operation \
+--hive-table t_shop_order
+
+
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_operation \
+--username root \
+--password zhangyang517 \
+--table t_user \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_operation \
+--hive-table t_user
+
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_marketing \
+--username root \
+--password zhangyang517 \
+--table t_coupon \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_marketing \
+--hive-table t_coupon
+
+
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_marketing \
+--username root \
+--password zhangyang517 \
+--table t_coupon_member \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_marketing \
+--hive-table t_coupon_member
+
+
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_marketing \
+--username root \
+--password zhangyang517 \
+--table t_coupon_order \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_marketing \
+--hive-table t_coupon_order
+
+
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_order \
+--username root \
+--password zhangyang517 \
+--table t_order \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_order \
+--hive-table t_order
+
+./sqoop import \
+--connect jdbc:mysql://10.1.1.121:3306/i_order \
+--username root \
+--password zhangyang517 \
+--table t_order_commodity \
+--num-mappers 1 \
+--hive-import \
+--fields-terminated-by '\t' \
+--hive-overwrite \
+--hive-database i_order \
+--hive-table t_order_commodity

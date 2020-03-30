@@ -2,7 +2,7 @@
 __*Supports real-life business scenarios to assist precision marketing and advertising strategy based on the five major dimensions (user information, marketing reminders, consumption levels, product preferences, and efficiency improvements).*__
 
 ## Technical Framework
-* Use __*Sqoop*__ to synchronize data from __*MySQL*__ to __*Hive*__
+* Use __*Sqoop*__ to synchronize data from __*MySQL*__ to __*Hive*__.
 * Use __*Spark*__ to complete data cleaning and ETL tasks and refines a high-dimensional wide table for user data.
 * Use __*ElasticSearch*__ and __*Kibana*__ to complete the relationship mapping of data query and user labels.
 * The backend is based on __*SpringBoot*__, the frontend is based on __*Vue.js*__ and use __*Echart.js*__ for data display.

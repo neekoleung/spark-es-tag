@@ -178,7 +178,7 @@
         <dependency>
             <groupId>org.elasticsearch</groupId>
             <artifactId>elasticsearch-hadoop</artifactId>
-            <version>6.5.3</version>
+            <version>7.17.11</version>
         </dependency>
         <!-- Java High Level REST Client-->
         <dependency>
